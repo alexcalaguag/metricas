@@ -1,0 +1,16 @@
+# User Bradesco settings
+user:
+  chave: "m217085"
+  senha: "bradesc7"
+  
+# Database settings
+database:
+  url: "mongodb://localhost:27017"
+  db: "product"
+  timeout: 5
+
+# Server settings
+server:
+  host: "https://sonar.com.br"
+  port: "8443"
+  sufixTestCoverage: "/sonarqube/api/measures/component?metricKeys=coverage,tests&component="

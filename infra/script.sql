@@ -1,0 +1,1 @@
+CREATE TABLE metrics_sonar (id serial NOT NULL, project VARCHAR(250) NOT null, metric VARCHAR(250) NOT NULL, value DECIMAL, PRIMARY KEY (id));
